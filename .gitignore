@@ -1,3 +1,4 @@
+
 .env
 dist
 backend/node_modules
@@ -8,4 +9,12 @@ frontend/coverage
 # Relatórios de teste de mutação (Stryker)
 backend/reports
 backend/.stryker-tmp
+
+# Arquivos do sistema
 .DS_Store
+
+# Playwright (testes E2E)
+frontend/test-results
+frontend/playwright-report
+frontend/blob-report
+frontend/playwright/.cache
